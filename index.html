@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>para: chule💗</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Pantalla 1 -->
+  <div id="intro" class="screen">
+    <h1>chule… 🥹</h1>
+    <p>tengo algo muy importante que preguntarte...</p>
+    <button onclick="goToQuestion()">Continuar 💌</button>
+  </div>
+
+  <!-- Pantalla 2 -->
+  <div id="question" class="screen hidden">
+    <h1>¿quieres ser mi San Valentín? 💖</h1>
+    <img src="foto1.jpg" alt="Nosotros" class="main-photo">
+
+    <div class="buttons">
+      <button id="yesBtn" onclick="sayYes()">SI 😊</button>
+      <button id="noBtn" onclick="sayNo()">NO 😒</button>
+    </div>
+  </div>
+
+  <!-- Pantalla 3 -->
+  <div id="final" class="screen hidden">
+    <h1>sabía que dirías que sí, chule 😌</h1>
+
+    <p>oficialmente eres mi San Valentín 💌🌹</p>
+
+    <h2 class="virtual-date">
+      ahora que eres mi San Valentín…
+      <br>
+      ¿aceptas una cita virtual conmigo este Sabado 14 de Febrero? 🥹
+    </h2>
+
+    <p>mira somos nosotros! 🥰</p>
+    <img src="foto2.jpg" alt="Nosotros felices" class="main-photo">
+
+    <img src="gato.gif" alt="Gato UIAUIA" class="meme">
+  </div>
+
+  <script src="script.js"></script>
+  <div id="hearts-container"></div>
+  <div id="star-container"></div>
+
+  <audio id="romanticMusic" src="music.mp3"></audio>
+</body>
+
+</html>
