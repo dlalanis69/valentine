@@ -37,7 +37,6 @@ function sayYes() {
 
   startHearts();
   startStar();
-  playMusic();
 }
 
 function startHearts() {
@@ -77,9 +76,4 @@ function startStar() {
       star.remove();
     }, 4000);
   }, 300);
-}
-
-function playMusic() {
-  const music = document.getElementById("romanticMusic");
-  music.play();
 }
